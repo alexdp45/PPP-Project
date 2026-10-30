@@ -4,7 +4,13 @@
 
 ## Motivating fact
 
-Industrial outdoor storage (IOS) — truck yards, equipment storage, and contractor yards — was a niche, fragmented asset class owned mostly by small local operators. Starting around COVID (2020–2021), large amounts of institutional capital entered the sector. From my work in NJ IOS acquisitions, it appears that institutions now win most broker-marketed deals, while smaller operators increasingly buy directly from owners, off-market. [Add sources documenting institutional entry into IOS — VERIFY.]
+Industrial outdoor storage (IOS) — truck yards, equipment storage, and contractor yards — was a niche, fragmented asset class owned mostly by small local operators. Starting around COVID, large amounts of institutional capital entered the sector:
+
+- Industry press reports institutional players entering IOS from about 2020 onward. In New Jersey, institution-backed funds and platforms are now buying portfolios, and the buyer pool has shifted toward lower-risk core and core-plus investors. Investors priced out of the top northern NJ submarkets are moving to other corridors. ([Real Estate NJ, July 2026](https://re-nj.com/site-strategy-how-investors-large-and-small-are-driving-new-jerseys-industrial-outdoor-storage-market/))
+- The same article reports national IOS rents up 123% from 2020 to September 2025, and about 110% five-year growth in northern NJ. Those are figures cited in the article, not independently verified.
+- At a 2026 NAIOP industry panel, practitioners described IOS capital now coming from life insurers, separately managed accounts, sovereign wealth funds, and pension money, and said large-scale IOS portfolio deals are a recent development. ([NAIOP blog, 2026](https://blog.naiop.org/2026/05/ios-from-niche-play-to-institutional-asset-class/))
+
+From my work in NJ IOS acquisitions, it appears that institutions now win most broker-marketed deals, while smaller operators increasingly buy directly from owners, off-market. That observation is what this project tests.
 
 ## Question
 

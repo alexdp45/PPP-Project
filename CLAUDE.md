@@ -1,45 +1,58 @@
-# Crowded Out: Institutional Capital and Off-Market Deals in NJ IOS
+# Paid to Grow? Fund Scale and the GP–LP Principal–Agent Problem
 
 ## Goal
-I am investigating how the arrival of institutional capital in industrial outdoor storage (IOS), starting around COVID, changed the way properties trade in New Jersey. My current question: has institutional capital pushed smaller operators out of the listed (broker-marketed) market and into off-market deals, and does the off-market channel behave like a less efficient market where search effort substitutes for cheap capital?
+I am investigating how fund scale changes the principal–agent relationship between general partners (GPs) and limited partners (LPs). My current question: as a GP grows, does its pay shift from performance (promote) to fixed fees, weakening the alignment LPs rely on, and do LPs lose the power to correct it?
+
+Sub-questions:
+1. At what scale does GP income shift from mostly promote to mostly fees?
+2. After that point, do GPs behave in ways that serve themselves over LPs?
+3. Do LP net returns fall with fund size, and does the LP-optimal size differ from the GP-optimal size?
+4. Do LPs' enforcement tools weaken as GPs grow?
 
 ## Course connection
-This is for People, Power, and Pay. Relevant ideas:
-- the Ch. 13 credit model: wealth, equity, and access to credit determine cost of capital
-- principal–agent problems in how fund managers are paid
-- rents, and why they persist or get competed away
-- search frictions
-- bargaining power and outside options
-- asymmetric information
+This is for People, Power, and Pay. The anchor is **Chapter 10, "Information: Contracts, Norms, and Power"** (Bowles & Halliday). Key concepts:
+- principal–agent relationships: conflict of interest plus incomplete contract (§10.3)
+- hidden actions and hidden attributes
+- contingent renewal and enforcement rents (§10.6–10.7)
+- the incentive compatibility constraint vs. the participation constraint (§10.8, §10.11)
+- short-side power and credible threats (§10.10)
+- how contract completeness (*t*) divides the gains (§10.13)
+- norms and trust in incomplete-contract markets (§10.15)
 
-Make mechanisms explicit: name the actors, their actions, what each can observe, and the outcome. Don't just name concepts. When I make a claim, point out competing explanations. Example: institutions paying more because their capital is cheaper vs. because their managers are paid to deploy.
+In this edition, the credit model (equity and collateral) is **Ch. 12**, not Ch. 13. Use it for GP co-investment as collateral.
+
+The project must stay centered on the GP–LP principal–agent relationship. Scale is the variable that changes that relationship, not a separate topic.
+
+Make mechanisms explicit: name the principal, the agent, what each can observe, what each chooses, and the outcome. Don't just name concepts. When I make a claim, point out competing explanations, such as limited deal supply, cheaper capital, or LPs' own preferences.
 
 ## Background on me
-I work in NJ IOS and industrial acquisitions and do direct-to-owner outreach. Skip basic real estate explanations, but explain the economics and empirical methods in plain language.
+I work in commercial real estate acquisitions as a performance-paid operator, and I have a network of GPs and LPs to interview. Skip basic real estate and fund-structure explanations, but explain the economics and empirical methods in plain language.
 
 ## Evidence and sources
-- Planned data: NJ deed and sale records, listing records, site-complexity data (environmental, zoning), and interviews. I will supply the data.
-- Licensed data (CoStar, Crexi, etc.) and any business-confidential information never go in this repo. Commit only code, aggregated results, and documentation.
-- Separate verified facts from suggestions. Do not invent citations, statistics, quotations, or data access. Mark every claim that needs checking with [VERIFY].
-- Interviews are disclosed: I identify myself as working in acquisitions. Do not help design anything that uses research as a pretext for prospecting.
+- Planned evidence: a model of GP and LP payoffs; public pension fund performance reports; fund terms from pension board materials; public alternative asset managers' filings; interviews with GPs and LPs across the size range.
+- Separate verified facts from suggestions. Do not invent citations, statistics, quotations, fund terms, or data access. Mark every claim that needs checking with [VERIFY].
+- Interviews are disclosed and consensual. Never put identifying details about interviewees, firms, funds, or my own deals in this repo, which is public. Commit only code, aggregated or coded results, and documentation.
+- Licensed data (Preqin, PitchBook, etc.) stays out of the repo.
 
 ## Current task
 Help me:
-- sharpen the question and testable predictions
-- define how to classify buyers (institutional / regional / local) and sales channels (listed / off-market)
-- plan an analysis that separates institutional entry from the COVID-era demand surge and the 2022 rate increases
-- draft interview protocols
+- build the GP–LP payoff model (the crossover fund size and the LP-vs-GP optimal size wedge)
+- draft a standard interview protocol for GPs and LPs
+- identify which public pension reports and filings provide usable fund-level data
+- design the analysis for each sub-question
 Keep it feasible for an undergraduate course project.
 
 ## How to work with me
 - Ask clarifying questions before assuming important facts.
 - Give concise alternatives with tradeoffs.
-- Push back when a claim sounds like a buyer's frustration rather than evidence.
+- Push back when a claim sounds like an operator's frustration rather than evidence.
 - Preserve my original notes. Before a major rewrite, explain what you'd change and why.
 - Log substantial edits in CHANGELOG.md.
 
 ## Project files
-- `README.md` — project overview for people
-- `notes/` — my original brainstorming. Never edit these.
-- `iterations/` — selected agent transcripts
+- `README.md`: project overview for people
+- `notes/`: original ideas. Never edit these.
+- `iterations/`: condensed agent session records
+- `model/` (planned): payoff model code
+- `interviews/` (planned): protocol and coded, anonymized results only
 - Do not overwrite existing writing without my permission.
